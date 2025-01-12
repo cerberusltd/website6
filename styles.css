@@ -1,0 +1,78 @@
+
+    /* General Styles */
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+        color: #333;
+    }
+
+    .container {
+        width: 90%;
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    /* Navigation Bar */
+    .navbar {
+        background: #222;
+        color: white;
+        padding: 10px 0;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .nav-logo img {
+        height: 50px;
+    }
+
+    .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+    }
+
+    .nav-links a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    /* Hero Section */
+    .hero {
+        background: #007bff;
+        color: white;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .cta-button {
+        background: #ff5722;
+        color: white;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+    /* Portfolio */
+    .portfolio-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 15px;
+    }
+
+    .portfolio-grid img,
+    .portfolio-grid video {
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    /* Footer */
+    .footer {
+        background: #222;
+        color: white;
+        text-align: center;
+        padding: 20px 0;
+    }
+    
